@@ -10,3 +10,11 @@ def not_using_even?(now)
     puts "Odd!"
   end
 end
+
+def using_even?(now)
+  if now.even?
+    puts "Even!"
+  else
+    puts "Odd!"
+  end
+end
