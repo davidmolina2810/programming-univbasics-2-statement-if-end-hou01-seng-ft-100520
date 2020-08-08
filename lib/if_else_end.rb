@@ -18,3 +18,6 @@ def using_even?(now)
     puts "Odd!"
   end
 end
+
+not_using_even?(now)
+using_even?(now)
